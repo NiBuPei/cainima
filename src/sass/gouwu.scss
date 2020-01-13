@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.sl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cl:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+
+.cl {
+    *zoom: 1;
+}
+
+body {
+    width: 100%;
+}
+
+.box {
+    width: 1080px;
+    border-top: 1px solid #e7e7e7;
+    margin: auto;
+
+    .bun-s {
+        height: 800px;
+        width: 1080px;
+
+        .ren {
+            height: 20px;
+            margin: 20px 0;
+            font-size: 12px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        .bun-max {
+            width: 940px;
+            margin: 50px auto;
+
+            #lie-a {
+                text-align: center;
+                width: 940px;
+                thead {
+                    width: 940px;
+                    border-radius: 3px;
+                    tr {
+                        background-color: #999;
+                        td {
+                            width: 80px;
+                            padding: 10px;
+                            margin-left: 20px;
+                            color: #666;
+                        }
+
+                        th {
+                            background-color: #999;
+                            height: 30px;
+                        }
+
+                        .check-all {
+                            vertical-align: middle;
+                        }
+                    }
+                }
+
+                .tbody {
+                    width: 940px;
+
+                    tr {
+                        height: 100px;
+                        border: 1px solid #e9e9e9;
+                        .checkbox {
+                            width: 60px;
+                        }
+
+                        .goods {
+                            width: 300px;
+                            img {
+                                width: 80px;
+                                height: 80px;
+                                margin-right: 10px;
+                                float: left;
+                            }
+                            span {
+                                overflow: hidden;
+                                display: block;
+                                width: 180px;
+                                margin-top: 20px;
+                                margin-left: 10px;
+                                line-height: 25px;
+                                text-align: center;
+                                float: left;
+                            }
+
+                        }
+
+                        .price {
+                            width: 180px;
+                        }
+
+                        .count {
+                            width: 100px;
+
+                            .add {
+                                float: left;
+                                margin-right: -1px;
+                                position: relative;
+                                z-index: 0;
+                                height: 23px;
+                                width: 17px;
+                                border: 1px solid #A92112;
+                                background: #f0f0f0;
+                                text-align: center;
+                                line-height: 23px;
+                                color: #444;
+                            }
+
+                            .input {
+                                float: left;
+                                margin-right: -1px;
+                                position: relative;
+                                z-index: 0;
+                                width: 60px;
+                                height: 15px;
+                                line-height: 15px;
+                                color: #343434;
+                                border: 1px solid #A92112;
+                                text-align: center;
+                                padding: 4px 0;
+                                background-color: #fff;
+                                z-index: 2;
+                            }
+
+                            .duce {
+                                float: left;
+                                margin-right: -1px;
+                                position: relative;
+                                z-index: 0;
+                                height: 23px;
+                                width: 17px;
+                                border: 1px solid #A92112;
+                                background: #f0f0f0;
+                                text-align: center;
+                                line-height: 23px;
+                                color: #444;
+                            }
+
+                            .add:hover {
+                                color: #A92112;
+                                z-index: 3;
+                                border-color: #A92112;
+                                cursor: pointer;
+                            }
+
+                            .duce:hover {
+                                color: #A92112;
+                                z-index: 3;
+                                border-color: #A92112;
+                                cursor: pointer;
+                            }
+                        }
+
+                        .subt {
+                            width: 170px;
+                            margin-left: 20px;
+                            color: #A92112;
+                            font-weight: 600;
+                            position: relative;
+                        }
+
+                        .opera{
+                            height: 30px;
+                            line-height: 30px;
+                            font-size: 30px;
+                            span:hover {
+                                cursor: pointer;
+                                color: #A92112;
+                            }
+
+                            a:hover {
+                                cursor: pointer;
+                                color: #A92112;
+                            }
+                        }
+
+
+                    }
+                }
+            }
+
+            .lie-f {
+                position: relative;
+                margin-top: 0px;
+                color: #666;
+                height: 48px;
+                border-top: 0;
+                background-color: #999;
+                background-image: linear-gradient(RGB(241, 241, 241), RGB(226, 226, 226));
+                position: relative;
+                z-index: 8;
+
+                div {
+                    line-height: 48px;
+                    height: 48px;
+                }
+
+                a {
+                    line-height: 48px;
+                    height: 48px;
+                }
+
+                .delete {
+                    padding-left: 10px;
+                    float: left;
+                }
+
+                .closing {
+                    float: right;
+                    width: 103px;
+                    text-align: center;
+                    color: #666;
+                    font-weight: bold;
+                    cursor: pointer;
+                    background-color: #999;
+                    background-image: linear-gradient(RGB(241, 241, 241), RGB(226, 226, 226));
+                }
+
+                .closing:hover {
+                    background-image: linear-gradient(RGB(226, 226, 226), RGB(241, 241, 241));
+                    color: #333;
+                }
+
+                .total {
+                    margin: 0 20px;
+                    cursor: pointer;
+                }
+
+                #priceTotal {
+                    position: absolute;
+                    left: 80px;
+                    color:#A92112;
+                    font-family: "Microsoft Yahei";
+                    font-weight: bold;
+                }
+
+                #selectedTotal {
+                    color:#A92112;
+                    font-family: "Microsoft Yahei";
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// .goods {
+//     width: 300px;
+// }
+
+// .goods span {
+//     width: 180px;
+//     margin-top: 20px;
+//     text-align: left;
+//     float: left;
+// }
+
+// .goods img {
+//     width: 100px;
+//     height: 80px;
+//     margin-right: 10px;
+//     float: left;
+// }
+
+// .price {
+//     width: 130px;
+// }
+
+// .count {
+//     width: 90px;
+// }
+
+// .count .count .add,
+// .count .reduce {
+//     height: 23px;
+//     width: 17px;
+//     border: 1px solid #e5e5e5;
+//     background: #f0f0f0;
+//     text-align: center;
+//     line-height: 23px;
+//     color: #444;
+// }
+
+// .count .add:hover,
+// .count .reduce:hover {
+//     color: #f50;
+//     z-index: 3;
+//     border-color: #f60;
+//     cursor: pointer;
+// }
+
+// .count input {
+//     width: 50px;
+//     height: 15px;
+//     line-height: 15px;
+//     border: 1px solid #aaa;
+//     color: #343434;
+//     text-align: center;
+//     padding: 4px 0;
+//     background-color: #fff;
+//     z-index: 2;
+// }
+
+// .subtotal {
+//     width: 150px;
+//     color: red;
+//     font-weight: bold;
+// }
+
+// .operation span:hover,
+// a:hover {
+//     cursor: pointer;
+//     color: red;
+//     text-decoration: underline;
+// }
+
+// .foot {
+//     margin-top: 0px;
+//     color: #666;
+//     height: 48px;
+//     border: 1px solid #c8c8c8;
+//     border-top: 0;
+//     background-color: #eaeaea;
+//     background-image: linear-gradient(RGB(241, 241, 241), RGB(226, 226, 226));
+//     position: relative;
+//     z-index: 8;
+// }
+
+// .foot div,
+// .foot a {
+//     line-height: 48px;
+//     height: 48px;
+// }
+
+// .foot .select-all {
+//     width: 80px;
+//     height: 48px;
+//     line-height: 48px;
+//     color: #666;
+//     text-align: center;
+// }

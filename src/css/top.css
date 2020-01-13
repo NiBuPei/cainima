@@ -1,0 +1,50 @@
+body {
+  min-width: 1080px;
+  height: 70px;
+  background-color: #ffffff; }
+
+.top {
+  width: 1080px;
+  height: 70px;
+  margin: auto; }
+  .top .min {
+    width: 1080px;
+    margin: auto;
+    padding-top: 20px;
+    height: 50px;
+    line-height: 50px; }
+    .top .min .ce {
+      width: 123px;
+      height: 50px;
+      line-height: 50px; }
+      .top .min .ce img {
+        display: block;
+        width: 123px;
+        height: 50px; }
+    .top .min .son {
+      margin: 0 0 0 60px;
+      height: 50px;
+      float: left; }
+      .top .min .son a {
+        font-size: 18px;
+        line-height: 50px; }
+    .top .min .str {
+      float: right;
+      width: 300px;
+      height: 50px; }
+      .top .min .str a {
+        width: 30px;
+        height: 30px; }
+      .top .min .str .yin {
+        width: 260px;
+        height: 50px;
+        padding-left: 30px; }
+        .top .min .str .yin input {
+          width: 210px;
+          height: 32px;
+          line-height: 32px; }
+        .top .min .str .yin span {
+          width: 40px;
+          height: 40px; }
+
+/*# sourceMappingURL=top.css.map */

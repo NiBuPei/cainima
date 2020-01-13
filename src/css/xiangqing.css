@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  vertical-align: top; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+li {
+  list-style: none; }
+
+.sl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.cl:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.cl {
+  *zoom: 1; }
+
+body {
+  width: 100%; }
+
+.box {
+  width: 1080px;
+  margin: auto; }
+  .box .suya {
+    margin: 35px 0;
+    height: 630px; }
+    .box .suya .nu-a {
+      position: relative;
+      float: left;
+      margin-right: 5px; }
+      .box .suya .nu-a .img {
+        position: relative;
+        width: 372px;
+        height: 372px; }
+        .box .suya .nu-a .img img {
+          width: 372px;
+          height: 372px; }
+        .box .suya .nu-a .img .minbox {
+          display: none;
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.3); }
+      .box .suya .nu-a .fang {
+        display: none;
+        position: absolute;
+        left: 372px;
+        top: 0;
+        width: 372px;
+        height: 372px;
+        overflow: hidden; }
+        .box .suya .nu-a .fang img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 920px;
+          height: 920px; }
+    .box .suya .nu-b {
+      float: left;
+      height: 372px;
+      width: 83px;
+      margin-right: 40px; }
+      .box .suya .nu-b .nubs {
+        height: 630px; }
+        .box .suya .nu-b .nubs img {
+          width: 83px;
+          height: 83px;
+          margin-bottom: 13px; }
+    .box .suya .nu-c {
+      float: right;
+      width: 570px; }
+      .box .suya .nu-c .get-a {
+        height: 25px;
+        line-height: 25px;
+        margin-bottom: 4px;
+        font-size: 20px; }
+      .box .suya .nu-c .shh {
+        display: inline-block;
+        height: 18px;
+        line-height: 18px;
+        font-size: 12px;
+        color: #c00000;
+        margin-bottom: 10px; }
+      .box .suya .nu-c .get-b {
+        height: 130px;
+        padding: 15px;
+        background-color: #e9e9e9; }
+        .box .suya .nu-c .get-b .rb-a {
+          height: 37px;
+          margin: 13px 0; }
+          .box .suya .nu-c .get-b .rb-a span {
+            display: block;
+            float: left;
+            width: 48px;
+            height: 32px;
+            font-size: 14px; }
+          .box .suya .nu-c .get-b .rb-a div {
+            float: left;
+            line-height: 37px;
+            font-size: 30px; }
+        .box .suya .nu-c .get-b .rb-b {
+          height: 48px; }
+          .box .suya .nu-c .get-b .rb-b .span {
+            display: block;
+            float: left;
+            width: 48px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 14px; }
+          .box .suya .nu-c .get-b .rb-b .sver {
+            float: left;
+            width: 480px;
+            height: 48px; }
+            .box .suya .nu-c .get-b .rb-b .sver .sec {
+              height: 24px;
+              line-height: 24px; }
+              .box .suya .nu-c .get-b .rb-b .sver .sec a {
+                width: 16px;
+                height: 16px; }
+            .box .suya .nu-c .get-b .rb-b .sver div {
+              float: left;
+              width: 80px;
+              height: 24px;
+              line-height: 24px; }
+              .box .suya .nu-c .get-b .rb-b .sver div a {
+                width: 16px;
+                height: 16px; }
+            .box .suya .nu-c .get-b .rb-b .sver .SS {
+              width: 490px;
+              height: 24px;
+              line-height: 24px; }
+              .box .suya .nu-c .get-b .rb-b .sver .SS span {
+                height: 24px;
+                line-height: 24px; }
+              .box .suya .nu-c .get-b .rb-b .sver .SS a {
+                width: 16px;
+                height: 16px; }
+      .box .suya .nu-c .get-c {
+        height: 30px;
+        padding: 10px 0 0 10px;
+        font-size: 14px; }
+        .box .suya .nu-c .get-c div {
+          display: inline-block;
+          margin-right: 20px; }
+      .box .suya .nu-c .get-d {
+        height: 25px;
+        margin-top: 10px;
+        border-bottom: 2px solid #e7e7e7; }
+        .box .suya .nu-c .get-d .mm {
+          float: left;
+          margin-left: 15px;
+          line-height: 25px; }
+        .box .suya .nu-c .get-d div {
+          float: right;
+          margin-right: 15px;
+          line-height: 25px; }
+      .box .suya .nu-c .get-e {
+        height: 18px;
+        font-size: 14px;
+        margin: 5px 0 20px 0; }
+        .box .suya .nu-c .get-e .ll {
+          float: left;
+          margin-left: 15px;
+          line-height: 25px; }
+        .box .suya .nu-c .get-e div {
+          float: right;
+          margin-right: 15px;
+          line-height: 25px; }
+      .box .suya .nu-c .get-f {
+        height: 150px;
+        margin: 0 0 12px; }
+        .box .suya .nu-c .get-f .vy {
+          height: 32px;
+          padding-bottom: 14px; }
+          .box .suya .nu-c .get-f .vy span {
+            width: 48px;
+            margin-right: 10px;
+            font-size: 14px; }
+          .box .suya .nu-c .get-f .vy div {
+            display: inline-block;
+            height: 32px;
+            line-height: 32px;
+            font-size: 14px;
+            font-weight: 500;
+            width: 70px;
+            border: 1px solid #845f3f;
+            text-align: center; }
+      .box .suya .nu-c .get-g {
+        height: 32px;
+        margin: 0 0 20px;
+        line-height: 30px; }
+        .box .suya .nu-c .get-g span {
+          display: block;
+          float: left;
+          width: 48px;
+          margin-left: 10px;
+          font-size: 14px; }
+        .box .suya .nu-c .get-g .div-n {
+          float: left;
+          width: 30px;
+          height: 30px;
+          border: 1px solid #845f3f;
+          text-align: center; }
+        .box .suya .nu-c .get-g .in {
+          float: left;
+          width: 60px;
+          height: 30px;
+          border: 1px solid #845f3f;
+          text-align: center; }
+        .box .suya .nu-c .get-g .div-e {
+          float: left;
+          width: 30px;
+          height: 30px;
+          border: 1px solid #845f3f;
+          text-align: center; }
+      .box .suya .nu-c .get-h {
+        height: 52px; }
+        .box .suya .nu-c .get-h .tyr {
+          display: block;
+          float: left;
+          width: 160px;
+          height: 50px;
+          text-align: center;
+          line-height: 50px;
+          margin-right: 10px;
+          padding: 0 6px;
+          border: 1px solid #845f3f;
+          color: #845f3f;
+          font-size: 20px; }
+        .box .suya .nu-c .get-h div {
+          float: left;
+          margin-right: 10px;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #845f3f; }
+          .box .suya .nu-c .get-h div a {
+            width: 30px;
+            height: 30px; }
+          .box .suya .nu-c .get-h div span {
+            font-size: 12px;
+            height: 20px;
+            line-height: 20px; }
+
+/*# sourceMappingURL=xiangqing.css.map */

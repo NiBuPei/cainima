@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  vertical-align: top; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+li {
+  list-style: none; }
+
+.sl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.cl:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.cl {
+  *zoom: 1; }
+
+body {
+  width: 100%; }
+
+.box {
+  width: 1080px;
+  border-top: 1px solid #e7e7e7;
+  margin: auto; }
+  .box .box-se .ren {
+    height: 20px;
+    margin: 20px 0;
+    font-size: 12px; }
+    .box .box-se .ren a {
+      text-decoration: none;
+      color: inherit; }
+  .box .box-se h2 {
+    height: 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 20px; }
+  .box .box-se .di-box {
+    height: 200px; }
+    .box .box-se .di-box .bubox {
+      position: relative;
+      width: 220px;
+      height: 180px;
+      margin: 15px;
+      border: 1px solid #e9e9e9; }
+      .box .box-se .di-box .bubox select {
+        width: 200px;
+        height: 30px;
+        margin: 15px 10px; }
+    .box .box-se .di-box .sung {
+      display: none;
+      position: relative;
+      text-align: center;
+      width: 70px;
+      height: 30px;
+      line-height: 30px;
+      margin: 15px;
+      background-color: #A92112;
+      color: #e9e9e9; }
+  .box .box-se .gyu .gyu-nav {
+    width: 1080px;
+    margin: 20px 30px; }
+    .box .box-se .gyu .gyu-nav li {
+      width: 1000px;
+      height: 40px;
+      text-align: center;
+      padding-left: 30px;
+      margin: 40px 5px 0 5px;
+      line-height: 40px;
+      font-size: 14px; }
+      .box .box-se .gyu .gyu-nav li .gyu-s {
+        float: left;
+        width: 500px;
+        height: 40px;
+        line-height: 40px; }
+      .box .box-se .gyu .gyu-nav li .gyu-y {
+        float: right;
+        margin-right: 15px;
+        text-align: center;
+        margin-top: 5px;
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #A92112;
+        color: #e9e9e9; }
+  .box .box-se .bun-a {
+    height: 50px;
+    margin: 30px 0 0 20px;
+    border-bottom: 1px solid #e9e9e9; }
+    .box .box-se .bun-a .ba {
+      float: left;
+      height: 50px;
+      line-height: 50px;
+      font-size: 19px; }
+    .box .box-se .bun-a .bb {
+      float: left;
+      height: 50px;
+      font-size: 14px;
+      line-height: 50px;
+      margin-left: 50px; }
+  .box .box-se .buin {
+    height: 30px;
+    margin: 55px 0 17px 20px;
+    line-height: 30px; }
+  .box .box-se .goods {
+    border: 1px solid #e9e9e9; }
+    .box .box-se .goods .nav {
+      width: 100%; }
+      .box .box-se .goods .nav .nav-s {
+        height: 90px;
+        margin: 10px 15px 10px 15px;
+        line-height: 90px; }
+        .box .box-se .goods .nav .nav-s img {
+          float: left;
+          width: 50px;
+          height: 50px;
+          margin: 21px; }
+        .box .box-se .goods .nav .nav-s .srt {
+          display: block;
+          float: left;
+          width: 250px;
+          height: 90px; }
+        .box .box-se .goods .nav .nav-s .count {
+          float: left;
+          width: 170px;
+          height: 35px;
+          margin: 27px 40px; }
+          .box .box-se .goods .nav .nav-s .count .add {
+            float: left;
+            margin-right: -1px;
+            position: relative;
+            z-index: 0;
+            height: 35px;
+            line-height: 35px;
+            width: 30px;
+            border: 1px solid #A92112;
+            background: #f0f0f0;
+            text-align: center;
+            color: #444; }
+          .box .box-se .goods .nav .nav-s .count .input {
+            float: left;
+            margin-right: -1px;
+            position: relative;
+            z-index: 0;
+            width: 100px;
+            height: 27px;
+            line-height: 27px;
+            color: #343434;
+            text-align: center;
+            padding: 4px 0;
+            background-color: #fff;
+            z-index: 2; }
+          .box .box-se .goods .nav .nav-s .count .duce {
+            float: left;
+            margin-right: -1px;
+            position: relative;
+            z-index: 0;
+            height: 35px;
+            line-height: 35px;
+            width: 30px;
+            border: 1px solid #A92112;
+            background: #f0f0f0;
+            text-align: center;
+            color: #444; }
+          .box .box-se .goods .nav .nav-s .count .add:hover {
+            color: #A92112;
+            z-index: 3;
+            border-color: #A92112;
+            cursor: pointer; }
+          .box .box-se .goods .nav .nav-s .count .duce:hover {
+            color: #A92112;
+            z-index: 3;
+            border-color: #A92112;
+            cursor: pointer; }
+        .box .box-se .goods .nav .nav-s span {
+          display: block;
+          text-align: center;
+          float: left;
+          width: 150px;
+          height: 90px; }
+        .box .box-se .goods .nav .nav-s .yung {
+          float: right;
+          width: 200px;
+          height: 90px;
+          font-size: 14px;
+          color: #c00000; }
+          .box .box-se .goods .nav .nav-s .yung .sty {
+            height: 90px;
+            line-height: 90px; }
+    .box .box-se .goods .ads {
+      height: 50px;
+      margin: 30px 20px; }
+      .box .box-se .goods .ads .aud {
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        font-size: 19px;
+        left: 20px; }
+      .box .box-se .goods .ads .aabb {
+        float: left;
+        margin-left: 30px;
+        height: 50px;
+        width: 250px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 14px;
+        border: 1px solid #e9e9e9; }
+    .box .box-se .goods .yun-s {
+      width: 850px;
+      height: 200px; }
+      .box .box-se .goods .yun-s span {
+        display: block;
+        float: left;
+        font-size: 19px;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        width: 100px; }
+      .box .box-se .goods .yun-s div {
+        border: 1px solid #e9e9e9;
+        display: block;
+        float: left;
+        margin: 20px 20px;
+        width: 450px;
+        height: 100px; }
+        .box .box-se .goods .yun-s div textarea {
+          resize: none;
+          outline: none;
+          border: 0;
+          width: 449px;
+          height: 99px; }
+  .box .box-se .gun {
+    height: 50px;
+    margin: 20px 20px;
+    position: relative; }
+    .box .box-se .gun div {
+      position: absolute;
+      right: 60px;
+      font-size: 19px;
+      line-height: 50px; }
+    .box .box-se .gun span {
+      float: right;
+      font-size: 19px;
+      line-height: 50px;
+      width: 60px;
+      height: 50px;
+      color: #c00000; }
+  .box .box-se .yus {
+    height: 50px;
+    margin: 20px 20px; }
+    .box .box-se .yus .xuxia {
+      float: right;
+      background-color: #c00000;
+      color: #e9e9e9;
+      text-align: center;
+      width: 130px;
+      font-size: 19px;
+      line-height: 50px; }
+
+/*# sourceMappingURL=jiesuan.css.map */

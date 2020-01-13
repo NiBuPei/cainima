@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="../src/lib/layui/css/layui.css">
+<header class="layui-row" style="height: 61px; 
+overflow:hidden;">
+    <div class="layui-col-md12" style="height: 60px;">
+        <ul class="layui-nav" style="height: 60px;">
+            <div style="margin: 0 0 0 50%; height: 60px;">
+                <li class="layui-nav-item">
+                    <a href="../html/longin.html" class="login">登录</a>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="../html/zhuce.html" class="syue">注册</a>
+                </li>
+                <li class="layui-nav-item">
+                    <div class="help">
+                        <a href="">帮助中心</a>
+                    </div>
+                </li>
+                <li class="layui-nav-item">
+                    <div class="xia-zai">
+                        <a href=""><span class="layui-icon  layui-icon-download-circle"></span>下载APP</a>
+                    </div>
+                </li>
+                <li class="layui-nav-item">
+                    <div>
+                        <a href="">资质证照 / 协议规则<span class=" layui-icon layui-icon-triangle-d"></span></a>
+                    </div>
+                    <dl class="layui-nav-child">
+                        <dd>
+                            <a href="">资质证照</a>
+                        </dd>
+                        <dd>
+                            <a href="">协议规则</a>
+                        </dd>
+                    </dl>
+                </li>
+            </div>
+
+        </ul>
+
+    </div>
+</header>
+<script src="../src/js/cookie.js"></script>
+<script src="../src/js/jquery-1.11.3.js"></script>
+<script>
+var login = getCookie('login_user');
+
+if (getCookie('login_user')) { // 登录状态
+    $('.login').html(getCookie('login_user'))
+    $('.syue').html('退出')
+    $('.login').attr('href',' ')
+    $('.syue').attr('href',' ')
+} else {
+    $('.login').html('登录')
+}
+
+$('.syue').click(function () {
+    removeCookie('login_user');
+    location.reload();
+})
+</script>

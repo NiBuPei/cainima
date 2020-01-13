@@ -1,0 +1,58 @@
+body {
+  width: 100%;
+  height: 180px;
+  margin: auto; }
+
+.footer {
+  width: 1080px;
+  height: 140px;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 12px; }
+  .footer .foot-max {
+    border-top: 1px solid #666;
+    height: 140px; }
+    .footer .foot-max .foot-se {
+      float: left;
+      width: 400px;
+      margin-top: 45px; }
+      .footer .foot-max .foot-se img {
+        display: block; }
+    .footer .foot-max .foot-ty {
+      float: left;
+      width: 550px;
+      padding: 45px 0 0 0; }
+      .footer .foot-max .foot-ty div {
+        height: 23px;
+        line-height: 23px;
+        margin-bottom: 6px; }
+        .footer .foot-max .foot-ty div .sec {
+          width: 550px;
+          height: 23px;
+          display: inline-block; }
+          .footer .foot-max .foot-ty div .sec a {
+            display: inline-block; }
+            .footer .foot-max .foot-ty div .sec a img {
+              width: 15px;
+              height: 15px;
+              line-height: 23px; }
+      .footer .foot-max .foot-ty span {
+        height: 23px;
+        display: block; }
+      .footer .foot-max .foot-ty a {
+        height: 23px;
+        display: block;
+        text-decoration: none;
+        color: inherit; }
+    .footer .foot-max .wer {
+      height: 136px;
+      position: relative;
+      float: right; }
+      .footer .foot-max .wer img {
+        width: 100px;
+        height: 36px;
+        position: absolute;
+        top: 50px;
+        right: 0; }
+
+/*# sourceMappingURL=footer.css.map */

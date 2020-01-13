@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.sl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cl:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.cl {
+    *zoom: 1;
+}
+
+body {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.box {
+    width: 1080px;
+    border-top: 1px solid #e7e7e7;
+    margin: auto;
+
+
+    .bun-s {
+        height: 800px;
+
+        .ren {
+            height: 20px;
+            margin: 20px 0;
+            font-size: 12px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        .rty {
+            height: 30px;
+            line-height: 30px;
+            margin: 10px 15px 30px;
+
+            h1 {
+                display: block;
+                float: left;
+                height: 30px;
+                line-height: 30px;
+                font-weight: 500;
+                font-size: 30px;
+            }
+
+            .sort {
+                float: right;
+                width: 300px;
+                font-size: 14px;
+
+                button {
+                    width: 80px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border: 0px;
+                    color: #A92112;
+                }
+            }
+        }
+
+        .son-nav {
+            
+            li {
+                float: left;
+                width: 266px;
+                margin-right: 4px;
+                margin-bottom: 4px;
+                text-align: center;
+                background-color: #ffffff;
+
+                a {
+                    img {
+                        width: 195px;
+                        height: 195px;
+                    }
+
+                    h1 {
+                        overflow: hidden;
+                        width: 266px;
+                        margin: 5px 0 10px 0;
+                        height: 23px;
+                        line-height: 23px;
+                        font-size: 19px;
+                        color: #333;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        width: 195px;
+                        overflow:hidden;
+                        height: 24px;
+                        line-height: 24px;
+                        font-size: 14px;
+                        margin: 5px 30px;
+                        color: #999999;
+                    }
+
+                    span {
+                        width: 266px;
+                        margin-top: 5px;
+                        margin-bottom: 11px;
+                        height: 26px;
+                        margin-left: -13px;
+                        line-height: 26px;
+                        color: #A92112;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  vertical-align: top; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+li {
+  list-style: none; }
+
+.sl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.cl:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.cl {
+  *zoom: 1; }
+
+body {
+  width: 100%; }
+
+#root {
+  width: 100%; }
+  #root .box {
+    width: 1080px;
+    margin: auto; }
+    #root .box .box-max {
+      height: 360px;
+      text-align: center; }
+      #root .box .box-max .box-nav {
+        width: 220px;
+        height: 360px;
+        float: left;
+        background-color: #845f3f; }
+        #root .box .box-max .box-nav .nav {
+          padding: 10px 0; }
+          #root .box .box-max .box-nav .nav li {
+            width: 160px;
+            padding: 0 30px;
+            height: 37px;
+            line-height: 37px;
+            color: #e7e7e7; }
+      #root .box .box-max .sun-max {
+        width: 860px;
+        height: 360px;
+        overflow: hidden;
+        position: relative; }
+        #root .box .box-max .sun-max .sun-min {
+          position: absolute;
+          width: 7000px;
+          left: -860px; }
+          #root .box .box-max .sun-max .sun-min img {
+            float: left;
+            width: 860px;
+            height: 360px;
+            line-height: 360px;
+            text-align: center; }
+        #root .box .box-max .sun-max .min-nav {
+          width: 160px;
+          height: 20px;
+          position: absolute;
+          bottom: 10px;
+          left: 40%;
+          z-index: 300; }
+          #root .box .box-max .sun-max .min-nav li {
+            width: 20px;
+            height: 10px;
+            float: left;
+            border-radius: 5px;
+            margin: 5px 6px;
+            background-color: #fff; }
+          #root .box .box-max .sun-max .min-nav .active {
+            background-color: #845f3f; }
+        #root .box .box-max .sun-max .on {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          border-radius: 50%;
+          font-size: 24px;
+          position: absolute;
+          right: 20px;
+          top: 45%;
+          text-align: center;
+          background-color: rgba(132, 95, 63, 0.3); }
+        #root .box .box-max .sun-max .next {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          border-radius: 50%;
+          font-size: 24px;
+          position: absolute;
+          left: 20px;
+          top: 45%;
+          text-align: center;
+          background-color: rgba(132, 95, 63, 0.3); }
+    #root .box .box-min {
+      height: 160px;
+      padding-top: 30px;
+      text-align: center;
+      border-bottom: 1px solid #333; }
+      #root .box .box-min .ser-nav {
+        height: 150px;
+        padding-bottom: 10px; }
+        #root .box .box-min .ser-nav li {
+          float: left;
+          width: 130px;
+          margin-right: 107px; }
+          #root .box .box-min .ser-nav li img {
+            width: 80px;
+            height: 80px;
+            padding: 25px 25px 15px; }
+          #root .box .box-min .ser-nav li span {
+            height: 20px;
+            margin-top: 10px;
+            font-size: 14px; }
+        #root .box .box-min .ser-nav .cy {
+          float: right;
+          margin-right: 0; }
+    #root .box .son-max {
+      height: 300px;
+      margin-top: 35px; }
+      #root .box .son-max div {
+        height: 40px;
+        line-height: 40px;
+        font-size: 28px; }
+        #root .box .son-max div span {
+          height: 16px;
+          line-height: 16px;
+          font-size: 14px;
+          margin-left: 12px;
+          color: #999999; }
+      #root .box .son-max .cenrt {
+        height: 260px; }
+        #root .box .son-max .cenrt .wen {
+          float: left;
+          width: 537px;
+          height: 250px;
+          background-color: #f3f0e9;
+          border-bottom: 2px solid #845f3f; }
+          #root .box .son-max .cenrt .wen .dun .dd {
+            margin: 25px 0 0 25px;
+            float: left; }
+            #root .box .son-max .cenrt .wen .dun .dd .ss {
+              height: 24px;
+              line-height: 24px;
+              font-size: 20px;
+              color: #333; }
+            #root .box .son-max .cenrt .wen .dun .dd p {
+              height: 20px;
+              width: 514px;
+              font-size: 14px;
+              line-height: 20px;
+              margin-top: 10px;
+              overflow: hidden;
+              color: #999999; }
+            #root .box .son-max .cenrt .wen .dun .dd span {
+              display: block;
+              height: 28px;
+              line-height: 28px;
+              margin: 16px 0 0;
+              color: #A92112;
+              font-size: 24px; }
+          #root .box .son-max .cenrt .wen .dun div {
+            float: right;
+            width: 215px;
+            height: 215px;
+            margin: 25px 10px 0 0; }
+          #root .box .son-max .cenrt .wen .yuo {
+            height: 20px;
+            line-height: 20px;
+            margin-top: 10px;
+            color: #A92112; }
+            #root .box .son-max .cenrt .wen .yuo .mm {
+              float: left;
+              margin-top: 15px;
+              margin-left: 15px;
+              line-height: 20px;
+              font-size: 15px; }
+              #root .box .son-max .cenrt .wen .yuo .mm span {
+                color: #333; }
+            #root .box .son-max .cenrt .wen .yuo div {
+              float: right;
+              margin-right: 15px;
+              margin-top: 15px;
+              line-height: 20px;
+              font-size: 15px; }
+        #root .box .son-max .cenrt .sen {
+          float: left;
+          width: 260px;
+          height: 250px;
+          margin-left: 6px;
+          background-color: #f8f8f8;
+          border-bottom: 2px solid #845f3f; }
+          #root .box .son-max .cenrt .sen .rtt {
+            height: 230px; }
+            #root .box .son-max .cenrt .sen .rtt .gyb {
+              float: left;
+              margin: 25px 0 0 5px;
+              width: 200px;
+              height: 90px; }
+              #root .box .son-max .cenrt .sen .rtt .gyb .sef {
+                height: 24px;
+                line-height: 24px;
+                font-size: 20px;
+                color: #333; }
+              #root .box .son-max .cenrt .sen .rtt .gyb span {
+                height: 20px;
+                line-height: 20px;
+                margin: 11px 0 0;
+                color: #A92112;
+                font-size: 20px; }
+            #root .box .son-max .cenrt .sen .rtt div {
+              float: right;
+              padding-left: 20px;
+              width: 130px;
+              height: 130px;
+              margin: 0 10px 0 0; }
+          #root .box .son-max .cenrt .sen .srr {
+            height: 20px;
+            line-height: 20px;
+            margin-top: 10px;
+            color: #A92112; }
+            #root .box .son-max .cenrt .sen .srr .kk {
+              float: left;
+              margin-top: 10px;
+              margin-left: 15px;
+              line-height: 20px;
+              font-size: 15px; }
+              #root .box .son-max .cenrt .sen .srr .kk span {
+                color: #333; }
+            #root .box .son-max .cenrt .sen .srr div {
+              float: right;
+              margin-right: 10px;
+              margin-top: 10px;
+              line-height: 20px;
+              font-size: 15px; }
+    #root .box .son-min {
+      margin-top: 40px;
+      padding-top: 40px;
+      height: 410px; }
+      #root .box .son-min div {
+        height: 40px;
+        line-height: 40px;
+        font-size: 28px;
+        margin: 0 0 20px; }
+        #root .box .son-min div span {
+          color: #A92112;
+          height: 20px;
+          line-height: 20px;
+          font-size: 18px;
+          margin-left: 12px; }
+      #root .box .son-min .rou-bon {
+        overflow: hidden;
+        height: 354px;
+        position: relative; }
+        #root .box .son-min .rou-bon .son-nav {
+          position: absolute;
+          width: 1800px;
+          height: 354px; }
+          #root .box .son-min .rou-bon .son-nav li {
+            float: left;
+            width: 266px;
+            margin-right: 4px;
+            text-align: center;
+            background-color: #faf6ef; }
+            #root .box .son-min .rou-bon .son-nav li img {
+              width: 266px;
+              height: 266px; }
+            #root .box .son-min .rou-bon .son-nav li h1 {
+              width: 266px;
+              padding-top: 15px;
+              height: 23px;
+              line-height: 23px;
+              font-size: 19px;
+              color: #333;
+              font-weight: 500; }
+            #root .box .son-min .rou-bon .son-nav li span {
+              width: 266px;
+              margin-top: 13px;
+              margin-bottom: 11px;
+              height: 26px;
+              margin-left: -13px;
+              line-height: 26px; }
+        #root .box .son-min .rou-bon .on {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          border-radius: 50%;
+          font-size: 24px;
+          position: absolute;
+          right: 20px;
+          top: 45%;
+          text-align: center;
+          background-color: rgba(132, 95, 63, 0.3); }
+        #root .box .son-min .rou-bon .next {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          border-radius: 50%;
+          font-size: 24px;
+          position: absolute;
+          left: 20px;
+          top: 45%;
+          text-align: center;
+          background-color: rgba(132, 95, 63, 0.3); }
+    #root .box .str-min div {
+      height: 37px;
+      line-height: 37px;
+      font-size: 28px; }
+    #root .box .str-min .str-mun {
+      text-align: center;
+      height: 704px; }
+      #root .box .str-min .str-mun li {
+        float: left;
+        width: 265px;
+        height: 350px;
+        margin: 0 0 3px 3px;
+        border: 1px solid #f8f8f8; }
+        #root .box .str-min .str-mun li img {
+          width: 266px;
+          height: 200px; }
+        #root .box .str-min .str-mun li p {
+          overflow: hidden;
+          height: 20px;
+          line-height: 20px; }
+        #root .box .str-min .str-mun li .tyu {
+          margin-top: 10px;
+          padding: 10px 0 10px;
+          height: 100px;
+          background-color: #f8f8f8; }
+          #root .box .str-min .str-mun li .tyu img {
+            height: 24px;
+            line-height: 24px; }
+          #root .box .str-min .str-mun li .tyu h1 {
+            overflow: hidden;
+            height: 22px;
+            line-height: 22px;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 500; }
+          #root .box .str-min .str-mun li .tyu span {
+            display: block;
+            height: 22px;
+            margin-top: 11px;
+            margin-bottom: 10px;
+            line-height: 22px;
+            font-size: 20px;
+            color: #A92112; }
+
+/*# sourceMappingURL=index.css.map */
